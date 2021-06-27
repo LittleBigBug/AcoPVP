@@ -1,0 +1,17 @@
+name: AcoPVP
+description: PVP Arena with betting and queues
+version: @version@
+main: net.yasfu.acopvp.AcoPVPPlugin
+#load: POSTWORLD
+author: LittleBigBug
+website: yasfu.net
+depend: [WorldGuard]
+softdepend: [BedWars]
+commands:
+  acopvp:
+    description: AcoPVP main command
+    permission: acopvp.use
+    aliases:
+      - apvp
+      - pvp
+    usages: /<command> <command|help> [args]
